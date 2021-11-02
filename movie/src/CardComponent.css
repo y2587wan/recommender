@@ -1,0 +1,50 @@
+.card {
+    display: inline-block;
+    max-width: 300px;
+    height: 70vh;
+    background: #ffffff;
+    border-style: solid;
+    border-color: rgb(236, 236, 236);
+    padding-bottom: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    will-change: transform;
+    transition: all 0.3s ease-in-out;
+}
+
+.label_genres {
+    color: white;
+    padding: 2px;
+    border-radius: 8px;
+    margin-left: 5px;
+    background-color: #e7e7e7; 
+    color: black;
+    font-size: 80%;
+
+}
+
+.label_genres:hover {
+    background-color:rgb(211, 211, 211);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;;
+}
+
+.card img {
+    max-width: 100%;
+    pointer-events: none;
+  }
+
+.card h6 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 22px;
+    padding: 0 5px;
+    pointer-events: none;
+}
+
+.swipe {
+    position: absolute;
+}

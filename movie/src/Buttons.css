@@ -1,0 +1,26 @@
+.footer__buttons {
+    position: fixed;
+    bottom: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerbuttons__share {
+    padding: 1vw !important;
+    color: rgb(245, 162, 55);
+}
+
+.footerbuttons__like {
+    padding: 1vw !important;
+    color: green;
+}
+
+.footerbuttons__close {
+    padding: 1vw !important;
+    color: red;
+}
+.footer__buttons .MuiIconButton-root {
+    background-color: white;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2) !important;
+}
+
