@@ -93,12 +93,14 @@ function CardComponent() {
             </div>
             <div className="footer__buttons">
                 <IconButton onClick={() => swipe('left')}> 
+                
+            {/* <IconButton onClick={() => swipe('left')}> 
                     <CloseIcon className="footerbuttons__close" fontSize="large" />
                 </IconButton>
 
                 <IconButton onClick={() => swipe('right')}>
                     <FavoriteIcon className="footerbuttons__like" fontSize="large" />
-                </IconButton>
+                        </IconButton> */}
             </div>
         </div>
     )

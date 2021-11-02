@@ -2,6 +2,7 @@
     display: inline-block;
     max-width: 300px;
     height: 70vh;
+    max-height: 500px;
     background: #ffffff;
     border-style: solid;
     border-color: rgb(236, 236, 236);
