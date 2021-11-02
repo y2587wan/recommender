@@ -92,7 +92,6 @@ function CardComponent() {
                 ))}
             </div>
             <div className="footer__buttons">
-                <IconButton onClick={() => swipe('left')}> 
                 
             {/* <IconButton onClick={() => swipe('left')}> 
                     <CloseIcon className="footerbuttons__close" fontSize="large" />
